@@ -1,0 +1,26 @@
+{
+  "name": "npmlessons",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APD-Classroom/npmLessons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APD-Classroom/npmLessons/issues"
+  },
+  "homepage": "https://github.com/APD-Classroom/npmLessons#readme",
+  "dependencies": {
+    "@faker-js/faker": "^6.0.0",
+    "mapbox-gl": "^2.7.1",
+    "parcel": "^2.3.2"
+  }
+}
