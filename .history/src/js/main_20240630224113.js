@@ -16,14 +16,4 @@ const buildUser = (userData) => {
 (() => {
 	console.log("Hey ", userProfile);
 	buildUser(userProfile);
-	mapboxgl.accessToken =
-		process.env.NODE_ENV === `production`
-			? process.env.API_KEY_MAPBOX
-			: "broken";
-	const map = new mapboxgl.Map({
-		container: "mapContainer", // container ID
-		style: "mapbox://styles/tbiesboer/cly2eisyv00ab01p80z70hvzh", // style URL
-		center: [-74.5, 40], // starting position [lng, lat]
-		zoom: 9 // starting zoom
-	});
 })();
